@@ -1,4 +1,4 @@
-%w(sprockets fileutils).each{|x| require x}
+Bundler.require(:default)
 
 main_file = 'app.jsx'
 out = 'QRise_standalone.jsx'
